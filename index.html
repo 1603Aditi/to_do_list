@@ -1,88 +1,103 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A to-do list to organise your life</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head> 
+    
+<body>
+    <div id="nav">
     <nav class="navbar">
-    <img id="logo" src="assets/logo.png" alt="three ticks">
+    <img id="logo" src="./assets/logo.png" alt="three ticks"><span id="app_name">Better You</span> 
     <ul>
             <li class="nav-list">
                 <a href="#">Features</a>
             </li>
+
             <li class="nav-list">
                 <a href="#">For Teams</a>
             </li>
+
                 <li class="nav-list" id="resources">
-                    <a href="#">Resources</a>
+                    <a href="#" id="res">Resources</a>
                     <ul id="dropdownmenu">
                         <li><a href="#">Getting Started</a></li>
                         <li><a href="#">Help Center</a></li>
                     </ul>
                 </li>
+
             <li class="nav-list">
                 <a href="#"> Pricing</a>
             </li>
+
             <li class="nav-list">
                 <a href="login.html">Log in</a>
+                <div class="vertical-line"></div>
             </li>
-            <li class="nav-list">
-                <a href="login.html">Start for free</a>
-            </li>
-        </ul>
-       
-    </nav>
 
-   <h1 >Organize your<br> work and <br>life, finally.</h1>
+            <li class="nav-list">
+                <button id="start-free"> Start for Free </button>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+
+<div id="text">
+   <h1 >A To-Do<br> for<br>better you!</h1>
     <p id="tagline">Simplify life for both you and your team with the world's #1 task manager and to-do list app.</p>
-    <button id="start"><a href="login.html">Start Now</a></button>
+    <button id="start"> Start Now </button>
+
+</div>
 
 <div id="reviews">
 <div class="box">
-    <h2 id="review">“Simple, straightforward, and super powerful”</h2>
+    <h2 class="review">“Simple, straightforward, and super powerful”</h2>
     </div>
 <div class="box">    
-    <h2 id="review">“The best to-do list app on the market”</h2>
+    <h2 class="review">“The best to-do list app on the market”</h2>
 </div>
 <div class="box">
-    <h2 id="review">“Nothing short of stellar”</h2>
+    <h2 class="review">“Nothing short of stellar”</h2>
 </div>
+
 </div>
+
 
 
 <div class="points">
     <h3>Clear your mind</h3>
-    <p  id="highlight">Capture tasks at the speed of thought<br></p>
+    <p class="highlight">Capture tasks at the speed of thought<br></p>
       <p> We've spent over a decade refining Todoist to be an extension of your mind.<br>
        Capture and organize tasks instantly using easy-flowing, natural language.</p>
 </div>
 
 <div class="points">
     <h3>Focus on what is important</h3>
-    <p id="highlight">Stay organized and focused <br></p>
+    <p class="highlight">Stay organized and focused <br></p>
        <p> Achieve mental clarity by sorting tasks into Today, Upcoming, or using custom filters.
         <br> See only what you need, when you need it.
         </p>
 </div>
 <div class="points">
     <h3> Plan with confidence </h3>
-    <p id="highlight">Simplify your planning<br></p>
+    <p class="highlight">Simplify your planning<br></p>
        <p> Make the most of your time. Schedule due dates, visualize your week in calendar view, and set recurring tasks with ease.
     </p>
 </div>
 <div class="points">
     <h3>Organize your teamwork, too </h3>
-    <p id="highlight">A home for your team's tasks<br></p>
+    <p class="highlight">A home for your team's tasks<br></p>
         <p>Give your team a shared space to collaborate and stay on top of it all alongside - but separate from your personal tasks and projects.</p>
         <br>
-        <hr>
+        
 </div>
-<script src="script.js"></script>
-</body>
 
 
+<div id="end">
+    <hr>
 <footer>
     <p>Join millions of people who organize work and life with TodoList.<br></p>
     
@@ -99,23 +114,16 @@
     </div>
     <div  class="foot">
         <ul>
-            <li>Download Apps</li>
-            <li>Help Center</li>
-            <li>Productivity Methods</li>
-            <li>Integrations</li>
-            <li>Channel Partners</li>
-            <li> Developer API</li>
-            <li>Status</li>
-            <li>Company</li>
+            <li><a href="#">Download Apps</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Channel Partners</a></li>
+            <li><a href="#">Company</a></li>
     </ul>
     </div>
     <div  class="foot">
     <ul>
-        <li>About Us</li>
-        <li>Careers</li>
-        <li>Inspiration Hub</li>
-        <li>Press</li>
-        <li>Twist</li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Careers</a></li>
     </ul>
     </div>
     <div class="follow">
@@ -123,10 +131,13 @@
         <ul>
             <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
             <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-            <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
             <li><a href="#"><i class="fa-brands fa-youtube"></i> YouTube</a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
         </ul>
     </div>
 </footer>
+</div>
+<script src="script.js"></script>
+</body>
 </html>
 
