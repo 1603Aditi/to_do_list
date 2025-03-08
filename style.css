@@ -267,3 +267,38 @@ footer a{
 .follow a:hover{
     color:rgb(43, 41, 41);    
 }
+
+#show1{
+    position:absolute;
+    height:46%;
+    width: 43%;
+    margin-left: 43.5vw;
+    margin-bottom: 95vh;
+    z-index: -1;
+}
+#show2{
+    position:absolute;
+    height:48%;
+    width: 47%;
+    margin-left: 45vw;
+    margin-bottom: 90vh;
+    z-index: -1;
+}
+#show3{
+    position:absolute;
+    height:48%;
+    width: 42%;
+    margin-top: 3%;
+    margin-left: 47vw;
+    margin-bottom: 80vh;
+    z-index: -1;
+}
+#show4{
+    position:absolute;
+    height:34%;
+    width: 27%;
+    margin-top: 7%;
+    margin-left: 47vw;
+    margin-bottom: 80vh;
+    z-index: -1;
+}
